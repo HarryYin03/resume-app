@@ -1,0 +1,39 @@
+.experience .form{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.experience input,
+.experience textarea{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.experience textarea{
+    resize: vertical;
+    min-height: 100px;
+}
+
+.experience .list{
+    margin-top: 1rem;
+}
+.experience .item{
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.experience .item p{
+    margin: 0.2rem 0;
+}
+
+.experience button{
+    margin-top: 0.3rem;
+    padding: 0.3rem 0.6rem;
+    background-color: var(--accent-color);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}

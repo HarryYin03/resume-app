@@ -1,0 +1,22 @@
+.general-info .form,
+.general-info .display{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.general-info .form input{
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.general-info button{
+    align-self: flex-start;
+    padding: 0.5rem 1rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
